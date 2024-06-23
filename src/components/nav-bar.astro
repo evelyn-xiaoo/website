@@ -1,0 +1,15 @@
+---
+const { currentPath } = Astro.props;
+---
+
+<nav> 
+    <div class="navDiv">
+        <a href="/" class={currentPath === '/' ? 'active-link' : ''}>Home</a>
+        <a href="/projects" class={currentPath === '/projects' ? 'active-link' : ''}>Projects</a>
+        <a href="/aboutMe" class={currentPath === '/aboutMe' ? 'active-link' : ''}>About me</a>
+    </div>
+</nav>
+
+<script>
+    import "../js/getPage"
+</script>

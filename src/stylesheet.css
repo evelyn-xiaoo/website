@@ -1,0 +1,127 @@
+* {
+    top: 0px;
+    left: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: static;
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, text {
+    color: white;
+}
+
+
+.home {
+    position: absolute;
+    background-image: url('../public/home-background.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.aboutMe {
+    position: absolute;
+    background-image: url('../public/aboutMe-background.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.navDiv {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+}
+
+.navDiv a {
+    margin: 20px;
+    margin-right: 100px;
+    font-family: "PT Serif";
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a.active-link {
+    color: white;
+}
+
+/*container*/
+.homeLayout {
+    position: static;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.content .leftDiv {
+    padding: 50px;
+}
+
+.content .rightDiv {
+    padding: 50px;
+    width: min-content;
+    align-content: center;
+}
+
+.leftDiv h2 {
+    font-size: 60px;
+    white-space: nowrap;
+}
+
+.rightDiv h1{
+    font-size: 100px;
+    white-space: nowrap;
+}
+
+.infoContainer {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    overflow-x: hidden;
+    padding: 10px;
+}
+
+.infoDiv {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    gap: 5px;
+}
+
+.infoDiv h3 {
+    font-size: 20px;
+}
+
+.primary {
+    animation: primary 45s linear infinite;
+}
+
+@keyframes primary {
+    from {
+        left: 0%;
+    }
+    to {
+        left: -161.5%;
+    }
+}
