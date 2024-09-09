@@ -1,3 +1,4 @@
+
 * {
     top: 0px;
     left: 0px;
@@ -23,7 +24,7 @@ html {
 
 
 .home {
-    background-image: url('../public/images/home-background.png');
+    background-image: url('../images/home-background.png');
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -31,14 +32,14 @@ html {
 }
 
 .aboutMe {
-    background-image: url('../public/images/aboutMe-background.png');
+    background-image: url('../images/aboutMe-background.png');
     background-size: cover;
     height: fit-content;
     width: 100%;
 }
 
 .projects {
-    background-image: url('../public/images/projects-background.png');
+    background-image: url('../images/projects-background.png');
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -51,7 +52,7 @@ html {
     justify-content: flex-end;
     border-bottom: 1px solid black;
     z-index: 9999;
-    background-image: url('../public/images/home-background.png');
+    background-image: url('../images/home-background.png');
 }
 
 .navDiv a {
@@ -321,12 +322,12 @@ nav a.active-link {
 
   #AWS {
     background-size: cover;
-    background-image: url('../public/images/AWS.png');
+    background-image: url('../images/AWS.png');
     background-color: white;
   }
 
   #SNIPE {
-    background-image: url('../public/images/SNIPE.png');
+    background-image: url('../images/SNIPE.png');
     background-size: cover;
   }
 
