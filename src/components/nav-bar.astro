@@ -2,7 +2,7 @@
 const { currentPath } = Astro.props;
 ---
 
-<nav> 
+<nav id="navbar"> 
     <div class="navDiv">
         <a href="/" class={currentPath === '/' ? 'active-link' : ''}>Home</a>
         <a href="/projects" class={currentPath === '/projects' ? 'active-link' : ''}>Projects</a>

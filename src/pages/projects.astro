@@ -1,8 +1,10 @@
 ---
 import PageTemplate from "../components/page-template.astro";
-
+import ProjectsList from "../components/projects-list.astro";
 ---
 
-<PageTemplate>
-    
+<PageTemplate bgImage="projects" contentLayout="projectsLayout">
+    <div class="projectsDiv">
+        <ProjectsList></ProjectsList>
+    </div>
 </PageTemplate>

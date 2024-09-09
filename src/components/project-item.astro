@@ -1,0 +1,13 @@
+---
+const {title} = Astro.props;
+---
+<a href="/" class="projectContainer">
+    <div class="projectImage" id={title}></div>
+    <div class="projectInfo">
+        <div class="idk">
+            <slot name="title"></slot>
+            <slot name="tools"></slot>
+        </div>
+        <slot name="about"></slot>
+    </div>
+</a>
